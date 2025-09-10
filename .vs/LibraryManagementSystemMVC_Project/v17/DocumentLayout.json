@@ -1,0 +1,671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\issue\\getissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\issue\\getissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\middlewares\\checkloggermiddlewares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:middlewares\\checkloggermiddlewares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\logic\\issuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\logic\\issuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\issue\\updateissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\issue\\updateissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\requestmodels\\issuemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\requestmodels\\issuemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\responsemodels\\issuevmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\responsemodels\\issuevmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\book\\updatebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\book\\updatebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\entitymodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\entitymodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\issue\\createissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\issue\\createissuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\issue\\getissuebooklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\issue\\getissuebooklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\logic\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\logic\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\ilogic\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\ilogic\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\logic\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\logic\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\ilogic\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\ilogic\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\requestmodels\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\requestmodels\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\dashboard\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\dashboard\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\dashboard\\getbookinventorystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\dashboard\\getbookinventorystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\applicationuser\\getapplicationuserdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\applicationuser\\getapplicationuserdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\book\\getbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\book\\getbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\book\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\book\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\applicationuser\\getapplicationuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\applicationuser\\getapplicationuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\book\\getbookslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\book\\getbookslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\wwwroot\\css\\custom-stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:wwwroot\\css\\custom-stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\logic\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\logic\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\responsemodels\\userdashboardvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\responsemodels\\userdashboardvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\entitymodels\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\entitymodels\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\bal\\logic\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:bal\\logic\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\migrations\\20250904234732_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:migrations\\20250904234732_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|e:\\asp.net core mvc\\librarymanagementsystemmvc_project\\models\\responsemodels\\applicationuservmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ED93B5-0FD6-494E-841C-6FCE700942B2}|LibraryManagementSystemMVC_Project.csproj|solutionrelative:models\\responsemodels\\applicationuservmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEcAAABAZmZmZmYywDYAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:37:29.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IssueController.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\IssueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IssueController.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\IssueController.cs",
+              "RelativeToolTip": "Controllers\\IssueController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:18:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\ILogic\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\ILogic\\IBookRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\ILogic\\IBookRepository.cs",
+              "RelativeToolTip": "BAL\\ILogic\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIA0wAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:22:33.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAFAAAABAZmZmZmYkwGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:44:09.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckLoggerMiddlewares.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\MiddleWares\\CheckLoggerMiddlewares.cs",
+              "RelativeDocumentMoniker": "MiddleWares\\CheckLoggerMiddlewares.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\MiddleWares\\CheckLoggerMiddlewares.cs",
+              "RelativeToolTip": "MiddleWares\\CheckLoggerMiddlewares.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAxwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:34:30.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetIssueBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\GetIssueBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\GetIssueBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\GetIssueBook.cshtml",
+              "RelativeToolTip": "Views\\Issue\\GetIssueBook.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T23:12:47.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\AdminDashboard.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T23:19:17.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IssueModel.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\RequestModels\\IssueModel.cs",
+              "RelativeDocumentMoniker": "Models\\RequestModels\\IssueModel.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\RequestModels\\IssueModel.cs",
+              "RelativeToolTip": "Models\\RequestModels\\IssueModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:26:03.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IssueRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\IssueRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\Logic\\IssueRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\IssueRepository.cs",
+              "RelativeToolTip": "BAL\\Logic\\IssueRepository.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAhwKEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:39:05.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateIssueBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\UpdateIssueBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\UpdateIssueBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\UpdateIssueBook.cshtml",
+              "RelativeToolTip": "Views\\Issue\\UpdateIssueBook.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T12:38:24.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateIssueBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\CreateIssueBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\CreateIssueBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\CreateIssueBook.cshtml",
+              "RelativeToolTip": "Views\\Issue\\CreateIssueBook.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T17:02:00.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\UpdateBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\UpdateBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\UpdateBook.cshtml",
+              "RelativeToolTip": "Views\\Book\\UpdateBook.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T13:19:48.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IssueVModel.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\IssueVModel.cs",
+              "RelativeDocumentMoniker": "Models\\ResponseModels\\IssueVModel.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\IssueVModel.cs",
+              "RelativeToolTip": "Models\\ResponseModels\\IssueVModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:25:15.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\EntityModels\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\EntityModels\\Book.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\EntityModels\\Book.cs",
+              "RelativeToolTip": "Models\\EntityModels\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:36:35.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetIssueBookList.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\GetIssueBookList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\GetIssueBookList.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Issue\\GetIssueBookList.cshtml",
+              "RelativeToolTip": "Views\\Issue\\GetIssueBookList.cshtml",
+              "ViewState": "AgIAAC0AAAAANTMzMzMTwAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T22:43:10.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\Logic\\BookRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\BookRepository.cs",
+              "RelativeToolTip": "BAL\\Logic\\BookRepository.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAmwMoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:45:33.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\ILogic\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\ILogic\\IAccountRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\ILogic\\IAccountRepository.cs",
+              "RelativeToolTip": "BAL\\ILogic\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:08:31.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:38:32.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetApplicationUserDetails.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\ApplicationUser\\GetApplicationUserDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\ApplicationUser\\GetApplicationUserDetails.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\ApplicationUser\\GetApplicationUserDetails.cshtml",
+              "RelativeToolTip": "Views\\ApplicationUser\\GetApplicationUserDetails.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T13:41:18.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\Logic\\AccountRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\AccountRepository.cs",
+              "RelativeToolTip": "BAL\\Logic\\AccountRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:30:02.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:37:40.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\RequestModels\\SignInModel.cs",
+              "RelativeDocumentMoniker": "Models\\RequestModels\\SignInModel.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\RequestModels\\SignInModel.cs",
+              "RelativeToolTip": "Models\\RequestModels\\SignInModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T20:04:43.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetBookInventoryStatus.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\GetBookInventoryStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\GetBookInventoryStatus.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\GetBookInventoryStatus.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\GetBookInventoryStatus.cshtml",
+              "ViewState": "AgIAAAMAAABgZmZmZmY3wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T11:26:11.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\UserDashboard.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Dashboard\\UserDashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\UserDashboard.cshtml",
+              "ViewState": "AgIAAAIAAAAQMzMzMzMjwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T17:15:28.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\CreateBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\CreateBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\CreateBook.cshtml",
+              "RelativeToolTip": "Views\\Book\\CreateBook.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T08:16:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetBook.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\GetBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\GetBook.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\GetBook.cshtml",
+              "RelativeToolTip": "Views\\Book\\GetBook.cshtml",
+              "ViewState": "AgIAAAoAAACAZmZmZmY3wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T13:34:17.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetBooksList.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\GetBooksList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\GetBooksList.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Book\\GetBooksList.cshtml",
+              "RelativeToolTip": "Views\\Book\\GetBooksList.cshtml",
+              "ViewState": "AgIAAAYAAACAzMzMzMwYwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:44:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T20:45:02.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetApplicationUserList.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\ApplicationUser\\GetApplicationUserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\ApplicationUser\\GetApplicationUserList.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\ApplicationUser\\GetApplicationUserList.cshtml",
+              "RelativeToolTip": "Views\\ApplicationUser\\GetApplicationUserList.cshtml",
+              "ViewState": "AgIAAAgAAAAgMzMzMzMjwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:42:57.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAADAMzMzMzMzwEAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T22:31:42.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:14:18.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Custom-StyleSheet.css",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\wwwroot\\css\\Custom-StyleSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Custom-StyleSheet.css",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\wwwroot\\css\\Custom-StyleSheet.css",
+              "RelativeToolTip": "wwwroot\\css\\Custom-StyleSheet.css",
+              "ViewState": "AgIAAF4AAAAAMjMzMzMTwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-05T22:30:55.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAMzMzMzMjwDsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:34:43.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDashboardVModel.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\UserDashboardVModel.cs",
+              "RelativeDocumentMoniker": "Models\\ResponseModels\\UserDashboardVModel.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\UserDashboardVModel.cs",
+              "RelativeToolTip": "Models\\ResponseModels\\UserDashboardVModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:14:28.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\Logic\\DashboardRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\DashboardRepository.cs",
+              "RelativeToolTip": "BAL\\Logic\\DashboardRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAhwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:13:21.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250904234732_init.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Migrations\\20250904234732_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250904234732_init.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Migrations\\20250904234732_init.cs",
+              "RelativeToolTip": "Migrations\\20250904234732_init.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:47:32.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\EntityModels\\Issue.cs",
+              "RelativeDocumentMoniker": "Models\\EntityModels\\Issue.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\EntityModels\\Issue.cs",
+              "RelativeToolTip": "Models\\EntityModels\\Issue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:25:28.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationUserVModel.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\ApplicationUserVModel.cs",
+              "RelativeDocumentMoniker": "Models\\ResponseModels\\ApplicationUserVModel.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Models\\ResponseModels\\ApplicationUserVModel.cs",
+              "RelativeToolTip": "Models\\ResponseModels\\ApplicationUserVModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:20:31.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationUserController.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationUserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:24:05.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationUserRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\ApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "BAL\\Logic\\ApplicationUserRepository.cs",
+              "ToolTip": "E:\\ASP.Net Core MVC\\LibraryManagementSystemMVC_Project\\BAL\\Logic\\ApplicationUserRepository.cs",
+              "RelativeToolTip": "BAL\\Logic\\ApplicationUserRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAjwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:23:34.279Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

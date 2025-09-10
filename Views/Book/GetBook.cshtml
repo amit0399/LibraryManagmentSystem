@@ -1,0 +1,50 @@
+﻿
+@{
+	ViewData["Title"] = "Book Details Page";
+}
+
+
+@if (Model != null)
+{
+    <div class="container my-4">
+        <div class="card shadow rounded">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Book Details</h4>
+            </div>
+
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <strong>Book ID:</strong> @Model.BookId
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Title:</strong> @Model.Title
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Author:</strong> @Model.Author
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Category:</strong> @Model.Category
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Quantity:</strong> @Model.Quantity
+                    </li>
+                </ul>
+                <a asp-action="GetBooksList" asp-controller="Book" class="btn btn-secondary mt-3">
+                    <i class="fas fa-arrow-left"></i> Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning text-center mt-4">
+        <i class="fas fa-exclamation-triangle"></i> Book details not found!
+    </div>
+}
+
+
+
+
+

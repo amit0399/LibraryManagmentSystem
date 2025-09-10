@@ -1,0 +1,85 @@
+﻿
+@{
+	ViewData["title"] = "Create Book Page";
+}
+
+
+
+<div class="bg-light d-flex align-items-center  min-vh-100 flex-fill">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow rounded">
+                    <div class="row g-0">
+
+                        <div class="col-md-2"></div>
+                        @* <div class="card shadow rounded">  *@
+                        <div class="col-md-8 p-4">
+                            <h2 class="mb-4" style="text-align:center;color:blue">ADD BOOK</h2>
+                            <form asp-action="CreateBook" asp-controller="Book" method="post">
+                                <div class="mb-3">
+                                    <label class="form-label">Title</label>
+                                    <input type="text" class="form-control" placeholder="book title" name="Title" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Author</label>
+                                    <input type="text" class="form-control" placeholder="Author name" name="Author" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Category</label>
+                                    <input type="text" class="form-control" placeholder="Book Category" name="Category" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Quantity</label>
+                                    <input type="text" class="form-control" placeholder="book Quantity" name="Quantity" />
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            </form>
+                            <br />
+                            
+                        </div>
+                        <div class="col-md-2"></div>
+                        @* </div> *@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@* <div class="row">
+	<div calss="col-sm-3"></div>
+	<div calss="col-sm-6">
+		<form asp-action="CreateBook" asp-controller="Book" method="post">
+			<p>
+				<label>Title</label>
+				<input type="text" name="Title" class="form-control" />	
+			</p>
+			<p>
+				<label>Author</label>
+				<input type="text" name="Author" class="form-control" />
+			</p>
+			<p>
+				<label>Category</label>
+				<input type="text" name="Category" class="form-control" />
+			</p>
+			<p>
+				<label>Quantity</label>
+				<input type="text" name="Quantity" class="form-control" />
+			</p>
+
+			<p>
+				<button type="submit" class="btn btn-success btn-lg">Submit</button>
+				<button type="reset" class="btn btn-danger btn-lg">Reset</button>
+			</p>
+		</form>
+	</div>
+	<div calss="col-sm-3"></div>
+</div> *@

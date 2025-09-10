@@ -1,0 +1,120 @@
+﻿html, body {
+    height:100%;
+
+}
+body {
+   display:flex;
+   flex-direction:column;
+   min-height:100vh;
+    
+}
+
+main.flex-fill {
+    flex:1;
+}
+
+.modern-navbar {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 0.75rem 1rem;
+}
+
+    .modern-navbar .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #4a90e2;
+    }
+
+    .modern-navbar .nav-link {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+        .modern-navbar .nav-link:hover,
+        .modern-navbar .nav-link.active {
+            color: #4a90e2;
+        }
+
+    .modern-navbar .dropdown-menu {
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .modern-navbar .form-control {
+        border-radius: 20px;
+    }
+
+    .modern-navbar .btn-outline-success {
+        border-radius: 20px;
+        padding: 0.3rem 1rem;
+        border-color: #4a90e2;
+        color: #4a90e2;
+        font-weight: 500;
+    }
+
+        .modern-navbar .btn-outline-success:hover {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+@media (max-width: 991.98px) {
+    .modern-navbar .navbar-nav {
+        padding-top: 1rem;
+    }
+}
+
+
+.modern-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .modern-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .modern-card .card-body {
+        padding: 2rem;
+    }
+
+    .modern-card .card-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .modern-card .card-text {
+        color: #555;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .modern-card .btn-primary {
+        border-radius: 30px;
+        padding: 0.5rem 1.5rem;
+        background: #4A90E2;
+        border: none;
+        font-weight: 500;
+    }
+
+        .modern-card .btn-primary:hover {
+            background: #3b7bd6;
+        }
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+
+
+

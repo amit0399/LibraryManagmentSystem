@@ -1,0 +1,169 @@
+﻿
+
+
+@model LibraryManagementSystemMVC_Project.Models.ResponseModels.IssueVModel
+@{
+    ViewData["Title"] = "Update IssueBook Details";
+}
+
+
+
+
+<div class="bg-light d-flex align-items-center min-vh-100 flex-fill">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow rounded">
+                    <div class="row g-0">
+
+                        <div class="col-md-2"></div>
+
+                        <div class="col-md-8 p-4">
+                            <h2 class="mb-4 text-center text-primary">ISSUE BOOK</h2>
+
+                            <form asp-action="UpdateIssueBook" asp-controller="Issue" method="post">
+                                <input type="hidden" asp-for="IssueId"/>
+                                <div class="mb-3">
+                                    <label class="form-label">Title</label>
+                                    <select asp-for="BookId" class=" form-control" asp-items="ViewBag.books" >
+                                        <option value="">--select-Book---</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">User Name</label>
+                                    <select asp-for="UserId" class=" form-control" asp-items="ViewBag.members" >
+                                        <option value="">--select-Book---</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Issue Date</label>
+                                    <input type="date" class="form-control" asp-for="IssueDate" />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Expected Return Date Date</label>
+                                    <input type="date" class="form-control" asp-for="ExpectedReturnDate" />
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+                            </form>
+                            <br />
+                        </div>
+
+                        <div class="col-md-2"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <form asp-action="UpdateIssueBook" asp-controller="Issue" method="post">
+            <input type="hidden" asp-for="IssueId" />
+
+            <p>
+                <label>Title</label>
+                <select class="form-control" asp-for="BookId" asp-items="ViewBag.books" value="@Model.Title">
+                    <option value="">-- Select Book --</option>
+                </select>
+            </p>
+
+            <p>
+                <label>User Name</label>
+                <select class="form-control" asp-for="UserId" asp-items="ViewBag.members" value="@Model.UserName">
+                    <option value="">-- Select User --</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Issue Date</label>
+                <input type="date" asp-for="IssueDate" class="form-control" value="@Model.IssueDate"/>
+            </p>
+
+            <p>
+                <label>Return Date</label>
+                <input type="date" asp-for="ExpectedReturnDate" class="form-control" value="@Model.ExpectedReturnDate" />
+            </p>
+
+            <p>
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                <button type="reset" class="btn btn-danger btn-lg">Reset</button>
+            </p>
+        </form>
+    </div>
+    <div class="col-sm-3"></div>
+</div> *@
+
+
+
+
+
+
+
+
+
+
+@* <div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<form asp-action="UpdateIssueBook" asp-controller="Issue" method="post">
+
+			<input type="hidden" name="IssueId" value="@Model.IssueId"/>
+			<p>
+				<label>Title</label>
+				<select class=" form-control" asp-for="BookId" asp-items="ViewBag.books">
+					<option value="">--select-Book---</option>
+				</select>
+
+			</p>
+			<p>
+				<label>User Name</label>
+				<select asp-for="UserMemberId" class=" form-control" asp-items="ViewBag.members">
+					<option value="">--select User---</option>
+				</select>
+			</p>
+			<p>
+				<label>Issue Date</label>
+				<input type="date" name="IssueDate" value="@Model.IssueDate" class="form-control" />
+			</p>
+			<p>
+				<label>Return Date</label>
+				<input type="date" name="ReturnDate" value="@Model.ReturnDate" class="form-control" />
+			</p>
+
+			<p>
+				<button type="submit" class="btn btn-success btn-lg">Submit</button>
+				<button type="reset" class="btn btn-danger btn-lg">Reset</button>
+			</p>
+		</form>
+	</div>
+	<div class="col-sm-3"></div>
+</div>
+
+ *@
+

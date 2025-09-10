@@ -1,0 +1,147 @@
+﻿
+@{
+	ViewData["Title"] = "Issue Book List Page";
+}
+
+
+
+@{
+    var serial = 1;
+}
+
+<div class="table-responsive shadow rounded">
+    <table class="table table-hover align-middle">
+        <thead class="table-primary text-center">
+            <tr>
+                <th>#</th>
+                <th>User Name</th>
+                <th>Title</th>
+                <th>Issue Date</th>
+                <th>Expected Return Date</th>
+                <th>Actual Return Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="text-center">
+                    <td>@serial</td>
+                    <td>@item.UserName</td>
+                    <td>@item.Title</td>
+                    <td>@item.IssueDate.ToString("dd MMM yyyy")</td>
+                    <td>@item.ExpectedReturnDate.ToString("dd MMM yyyy")</td>
+                    <td>@item.ActualReturnDate</td>
+                        
+                        @* @if (item.ActualReturnDate == null)
+                        {
+                            <a asp-action="ConfirmBookReturn" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-success btn-sm">
+                                <i class="fas fa-undo"></i> Return
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">Returned</span>
+                        } *@
+                    
+                
+                <td>
+                    <a asp-action="GetIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-info btn-sm me-1">
+                        <i class="fas fa-eye"></i>
+                    </a>
+
+                        <a asp-action="UpdateIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-warning btn-sm me-1">
+                            <i class="fas fa-edit"></i>
+                        </a>
+
+                        <a asp-action="DeleteIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-danger btn-sm me-1">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+
+                    @if (item.ActualReturnDate == null)
+                        {
+                            <a asp-action="ConfirmBookReturn" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-success btn-sm">
+                                <i class="fas fa-undo"></i> Return
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">Returned</span>
+                        }
+                    </td>
+                </tr>
+
+                serial++;
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @{
+	var serial = 1;
+}
+
+<table class="table table-bordered table-striped">
+	<tr>
+		<th>Sr. No. </th>
+		<th>User Name</th>
+		<th>Title</th>
+		<th>Issue Date</th>
+		<th>Expected Return Date</th>
+		<th>Actual Return Date</th>
+		<th>Action</th>
+	</tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@serial</td>
+			<td>@item.UserName</td>
+			<td>@item.Title</td>
+			<td>@item.IssueDate</td>
+			<td>@item.ExpectedReturnDate</td>
+			<td>@item.ActualReturnDate</td>
+			<td>
+				<a asp-action="GetIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-primary">View</a>
+				<a asp-action="UpdateIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-secondary">Edit</a>
+				<a asp-action="DeleteIssueBook" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-danger">Delete</a>
+				@if (item.ActualReturnDate == null)
+				{
+
+					<a asp-action="ConfirmBookReturn" asp-controller="Issue" asp-route-id="@item.IssueId" class="btn btn-success">Return</a>
+					
+
+				}
+				else
+				{
+					<span class="text-success"> Returned</span>	
+					
+				}
+			</td>
+
+		</tr>
+		serial++;
+	}
+
+</table> *@

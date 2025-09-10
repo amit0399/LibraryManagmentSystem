@@ -1,0 +1,63 @@
+﻿
+@{
+	ViewData["Title"] = "BookInventoryStatus Page";
+}
+
+
+<div class="container my-5">
+    <h3 class="text-center mb-4 text-primary">📚 Book Inventory (Per Title)</h3>
+
+    <div class="table-responsive shadow rounded">
+        <table class="table table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Total Copies</th>
+                    <th scope="col">Issued Copies</th>
+                    <th scope="col">Available Copies</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var x in Model)
+                {
+                    <tr>
+                        <td><strong>@x.Title</strong></td>
+                        <td>@x.TotleCopies</td>
+                        <td>@x.TotleIssuedCopies</td>
+                        <td>
+                            <span class="badge bg-success">@x.TotleAvailableCopies</span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+@* @model List<BookInventoryVModel> *@
+@* 
+<h3>Book Inventory (Per Title)</h3>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Total Copies</th>
+            <th>Issued</th>
+            <th>Available</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.Title</td>
+                <td>@x.TotleCopies</td>
+                <td>@x.TotleIssuedCopies</td>
+                <td>@x.TotleAvailableCopies</td>
+            </tr>
+        }
+    </tbody>
+</table> *@
+

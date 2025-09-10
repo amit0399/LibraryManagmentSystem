@@ -1,0 +1,81 @@
+﻿
+@{
+	ViewData["Title"] = "User Registration Page";
+}
+
+
+<div class="bg-light d-flex align-items-center  min-vh-100 flex-fill">
+   <div class="container">
+       <div class="row justify-content-center">
+             <div class="col-md-10">
+                 <div class="card shadow rounded">
+                     <div class="row g-0">
+                        
+                        <div class="col-md-2"></div>
+                        @* <div class="card shadow rounded">  *@
+                            <div class="col-md-8 p-4">
+                                <h2 class="mb-4" style="text-align:center;color:blue">Registration</h2>
+                            <form asp-action="Register" asp-controller="Account" method="post">
+                                        <div class="mb-3">
+                                            <label class="form-label">User Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter your name" name="UserName" />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" placeholder="name@example.com" name="Email" />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Password</label>
+                                            <input type="password" class="form-control" placeholder="Enter password" name="Password" />
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                                    </form>                          
+                                    <br />
+                                    <p style="text-align:center">
+                                        
+                                        <a asp-controller="Account" asp-action="Login">already a member? SignIn</a>
+                                    </p>
+                            </div>
+                        <div class="col-md-2"></div>                       
+                        @* </div> *@
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+</div>
+                        
+
+
+
+
+@* <div class="col-md-6 p-4">
+    <h2 class="mb-4" style="text-align:center;color:blue">Registration</h2>
+<form asp-action="Register" asp-controller="Account" method="post">
+    <div class="mb-3">
+        <label class="form-label">User Name</label>
+        <input type="text" class="form-control" placeholder="Enter your name" />
+    </div>
+    <div class="mb-3">
+         <label class="form-label">Email</label>
+         <input type="email" class="form-control" placeholder="name@example.com" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" placeholder="Enter password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Submit</button>
+</form>
+<br />
+<p style="text-align:center">
+     still a member?
+    <a asp-controller="Home" asp-action="Index">Already SignUP ?</a>
+</p>
+<span style="color:red">@ViewBag.Error</span>
+
+</div>
+
+
+ *@

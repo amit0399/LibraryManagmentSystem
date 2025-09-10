@@ -1,0 +1,69 @@
+﻿
+@{
+
+	ViewData["Title"] = "Update Book Page";
+}
+
+
+<div class="bg-light d-flex align-items-center  min-vh-100 flex-fill">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow rounded">
+                    <div class="row g-0">
+
+                        <div class="col-md-2"></div>
+                        @* <div class="card shadow rounded">  *@
+                        <div class="col-md-8 p-4">
+                            <h2 class="mb-4" style="text-align:center;color:blue">ADD BOOK</h2>
+                            <form asp-action="UpdateBook" asp-controller="Book" method="post">
+                                <input type="hidden" name="BookId" value="@Model.BookId" />
+                                <div class="mb-3">
+                                    <label class="form-label">TITLE</label>
+                                    <input type="text" class="form-control" placeholder="book title" name="Title" value="@Model.Title" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">AUTHOR</label>
+                                    <input type="text" class="form-control" placeholder="Author name" name="Author" value="@Model.Author" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">CATEGORY</label>
+                                    <input type="text" class="form-control" placeholder="Book Category" name="Category"
+                                      value="@Model.Category" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">QUANTITY</label>
+                                    <input type="text" class="form-control" placeholder="book Quantity" name="Quantity" value="@Model.Quantity" />
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">SUBMIT</button>
+                            </form>
+                            <br />
+
+                        </div>
+                        <div class="col-md-2"></div>
+                        @* </div> *@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
